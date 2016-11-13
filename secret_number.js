@@ -1,7 +1,8 @@
 'use strict';
-module.exports = function() {
+var testRandomNumber = module.exports = function() {
 	var randomNewNumber = Math.random() * 1000000;
-	return function randomNew(){
-	 return randomNewNumber;
+		return function (){
+	 		return randomNewNumber;
 	};
 };
+	
